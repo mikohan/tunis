@@ -4,12 +4,30 @@ import heroImg from "../../assets/img/hero/dark.jpg";
 import heroImgMobile from "../../assets/img/hero/img-mobile.jpg";
 import cancelImg from "../../assets/img/cancel.svg";
 import Index from "../../components/about/index";
+import myVideo from "../../assets/video/vova_project.mp4"
+import myVideoTmb from "../../assets/img/flowers.jpg"
+
+import Plyr from "plyr-react"
+import "plyr-react/plyr.css"
+
+const videoSrc = {
+  type: "video",
+  sources: [
+    {
+      src: myVideo,
+      type: 'video/mp4',
+      size: 720,
+    }
+  ],
+  
+  poster: myVideoTmb
+};
 
 const heroContent = {
   heroImage: heroImg,
   heroMobileImage: heroImgMobile,
-  heroTitleName: "steve milner",
-  heroDesignation: "web designer",
+  heroTitleName: "Vladimir Vostrikov",
+  heroDesignation: "Manager in IT and Marketing",
   heroDescriptions: `I'm a Tunisian based web designer & front‑end developer focused on
   crafting clean & user‑friendly experiences, I am passionate about
   building excellent software that improves the lives of those
@@ -72,13 +90,16 @@ const Hero = () => {
 
           <div className="box_inner about">
             <div data-aos="fade-up" data-aos-duration="1200">
-              <div className="title-section text-left text-sm-center">
+              <div style={{paddingTop: 30, paddingBottom: 0}} className="title-section text-left text-sm-center">
                 <h1>
                   ABOUT <span>ME</span>
                 </h1>
-                <span className="title-bg">Resume</span>
+                {/* <span className="title-bg">Introduction</span> */}
               </div>
               {/* End title */}
+              <div style={{padding: "5%"}}>
+              <Plyr source={videoSrc}  />
+              </div>
               <Index />
             </div>
           </div>
