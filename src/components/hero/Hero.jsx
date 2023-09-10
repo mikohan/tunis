@@ -27,11 +27,10 @@ const heroContent = {
   heroImage: heroImg,
   heroMobileImage: heroImgMobile,
   heroTitleName: "Vladimir Vostrikov",
-  heroDesignation: "Manager in IT and Marketing",
-  heroDescriptions: `I'm a Tunisian based web designer & front‑end developer focused on
-  crafting clean & user‑friendly experiences, I am passionate about
-  building excellent software that improves the lives of those
-  around me.`,
+  heroDesignation: "Specialist in IT and Marketing fields",
+  heroDescriptions: `I'm an full stack developer and marketing specialist focused on
+  building effective teams, I am passionate about
+  architecture of excellent software and making marketing strategies that help business growing rapidly.`,
   heroBtn: "more about me",
 };
 
