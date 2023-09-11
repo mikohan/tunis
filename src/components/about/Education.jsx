@@ -2,25 +2,22 @@ import React from "react";
 
 const educationContent = [
   {
-    year: "2015",
-    degree: "ENGINEERING DEGREE",
-    institute: "OXFORD UNIVERSITY",
-    details: `  Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore
-        adipisicing elit`,
+    year: "2022",
+    degree: "SELF EDUCATION",
+    institute: "SELF EDUCATION",
+    details: `HAVE TAKEN MORE THEN 100 courses and read over 300 books in programming, marketing and management, etc`,
   },
   {
-    year: "2012",
+    year: "1993",
     degree: "MASTER DEGREE",
-    institute: "KIEV UNIVERSITY",
-    details: `Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol
-        elit, tempor incididunt`,
+    institute: "TECHNICAL UNIVERSITY OF IRKUTSK",
+    details: `SPECIALITY: ELECTRICAL & MECHANICAL ENGINEER`,
   },
   {
-    year: "2009",
-    degree: "BACHELOR DEGREE ",
-    institute: "TUNIS HIGH SCHOOL",
-    details: `Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur
-        elit, sed do eiusmod tempor duntt`,
+    year: "1988",
+    degree: "HIGH SCHOOL",
+    institute: "CHILCHIGIR HIGH SCHOOL",
+    details: `  School in Siberia`,
   },
 ];
 
