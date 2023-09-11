@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
-import heroImg from "../../assets/img/hero/dark.jpg";
+import heroImg from "../../assets/img/hero/dark-ua.jpg";
 import heroImgMobile from "../../assets/img/hero/img-mobile.jpg";
 import cancelImg from "../../assets/img/cancel.svg";
 import Index from "../../components/about/index";
@@ -27,11 +27,11 @@ const heroContent = {
   heroImage: heroImg,
   heroMobileImage: heroImgMobile,
   heroTitleName: "Vladimir Vostrikov",
-  heroDesignation: "Specialist in IT and Marketing fields",
+  heroDesignation: "Los Angeles based IT and marketing specialist",
   heroDescriptions: `I'm an full stack developer and marketing specialist focused on
   building effective teams, I am passionate about
   architecture of excellent software and making marketing strategies that help business growing rapidly.`,
-  heroBtn: "more about me",
+  heroBtn: "Check my Video",
 };
 
 const Hero = () => {
