@@ -2,18 +2,20 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { useNavigate } from "react-router-dom";
 
 const Contact = () => {
   const form = useRef();
+          const navigate = useNavigate();
 
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_n4mkhz9",
-        "template_ugoztxr",
+        "service_28l37sa",
+        "template_7kv08iz",
         form.current,
-        "user_vYmDSd9PwIuRXUQEDjYwN"
+        "42Bbj0zJrwuCZtcHN"
       )
       .then(
         (result) => {
@@ -27,6 +29,8 @@ const Contact = () => {
             progress: undefined,
           });
           document.getElementById("myForm").reset();
+          navigate("/")
+
         },
         (error) => {
           toast.error("Ops Message Not Sent!", {

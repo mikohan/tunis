@@ -5,22 +5,22 @@ const Address = () => {
     <>
       <p className="open-sans-font custom-span-contact position-relative">
         <i className="fa fa-map position-absolute"></i>
-        <span className="d-block">Address Point</span>123 Stree New York City ,
-        United States Of America 750065.
+        <span className="d-block">Address Point</span>Los Angeles, CA ,
+        United States Of America 90094.
       </p>
       {/* End .custom-span-contact */}
 
       <p className="open-sans-font custom-span-contact position-relative">
         <i className="fa fa-envelope-open position-absolute"></i>
         <span className="d-block">mail me</span>{" "}
-        <a href="mailto:steve@mail.com">steve@mail.com</a>
+        <a href="mailto:manheeusa@gmail.com">manheeusa@gmail.com</a>
       </p>
       {/* End .custom-span-contact */}
 
       <p className="open-sans-font custom-span-contact position-relative">
         <i className="fa fa-phone-square position-absolute"></i>
         <span className="d-block">call me</span>{" "}
-        <a href="Tel: +216 21 184 010">+216 21 184 010</a>
+        <a href="Tel: +19512244109">+1 (951) 224-4109</a>
       </p>
       {/* End .custom-span-contact */}
     </>
