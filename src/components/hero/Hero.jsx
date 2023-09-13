@@ -4,8 +4,8 @@ import heroImg from "../../assets/img/hero/dark-ua.jpg";
 import heroImgMobile from "../../assets/img/hero/img-mobile.jpg";
 import cancelImg from "../../assets/img/cancel.svg";
 import Index from "../../components/about/index";
-import myVideo from "../../assets/video/vova_project.mp4"
-import myVideoTmb from "../../assets/img/flowers.jpg"
+import myVideo from "../../assets/video/ready_first.mp4"
+import myVideoTmb from "../../assets/video/me_vid_ready.jpg"
 
 import Plyr from "plyr-react"
 import "plyr-react/plyr.css"
@@ -16,7 +16,7 @@ const videoSrc = {
     {
       src: myVideo,
       type: 'video/mp4',
-      size: 720,
+      size: 1080,
     }
   ],
   
