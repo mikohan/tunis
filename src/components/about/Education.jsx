@@ -10,7 +10,7 @@ const educationContent = [
   {
     year: "1993",
     degree: "MASTER DEGREE",
-    institute: "TECHNICAL UNIVERSITY OF IRKUTSK",
+    institute: "Irkutsk National Research Technical University",
     details: `SPECIALITY: ELECTRICAL & MECHANICAL ENGINEER`,
   },
   {
