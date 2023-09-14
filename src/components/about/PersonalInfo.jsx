@@ -22,6 +22,7 @@ const PersonalInfo = () => {
           </span>
         </li>
       ))}
+      <li>LinkedIn: <a href="https://www.linkedin.com/in/vladimir-vostrikov-7944b040/"><i className="fa fa-linkedin-square" style={{fontSize: "2rem"}}></i></a></li>
     </ul>
   );
 };
