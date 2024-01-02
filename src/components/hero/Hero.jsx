@@ -27,7 +27,7 @@ const heroContent = {
   heroImage: heroImg,
   heroMobileImage: heroImgMobile,
   heroTitleName: "Vladimir Vostrikov",
-  heroDesignation: "Los Angeles based IT and marketing specialist",
+  heroDesignation: "Los Angeles based Coding Marketer",
   heroDescriptions: `I'm an full stack developer and marketing specialist focused on
   building effective teams, I am passionate about
   architecture of excellent software and making marketing strategies that help business growing rapidly.`,
